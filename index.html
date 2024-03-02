@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,20 @@
 </head>
 <body>
     <header>
+        <nav>
         <h1>DSPlayGames</h1>
             <ul>
-                <li><a href="#news"></a>Nóticias</li>
-                <li><a href="#games"></a>Jogos</li>
-                <li><a href="#singup"></a>Inscreva-se</li>
+                <li><a href="#news">Nóticias</a></li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#singup">Inscreva-se</a></li>
              </ul>
                  <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\user.png" alt="Avatar">
+        </nav>         
     </header>
 
-    <h1>Últimas Nóticias</h1>
+<Main>
+    <section id="news">
+    <h2 > Últimas Nóticias</h2>
     <h2>Título principal da notícia</h2>
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h3>
     <p>23/02/2022</p>
@@ -32,9 +36,9 @@
        reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, 
        repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...
     </p>
-    <h4>Leia mais...</h4>
+    <a href="leiamais.html">Leia mais...</a>
 
-    <h1>Últimas Nóticias</h1>
+    
     <h2>Título principal da notícia</h2>
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h3>
     <p>23/02/2022</p>
@@ -50,33 +54,96 @@
        reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, 
        repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...
     </p>
-    <h4>Leia mais...</h4>
+    <a href="leiamais.html">Leia mais...</a>
+    <br>
+    <Div> 
+        <a href="leiamais.html">Carregar mais...</a>
+    </Div>
+    </section>
+    
+    <section id="games">
+        <div>    
+            <h1 >Jogos</h1>
+            <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\game.png" alt="games" width="300px" height="169px">
+            <h3>Horizon Forbidden West</h3>
+            <p>De Sony Interactive Ententainment</p>
+            <p>9.7</p>
+        </div>    
 
-    <h3>Carregar mais</h3>
+        <div>
+            <h1>Jogos</h1>
+            <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\game.png" alt="games" width="300px" height="169px">
+            <h3>Horizon Forbidden West</h3>
+            <p>De Sony Interactive Ententainment</p>
+            <p>9.7</p>
+        </div>
 
-    <h1>Jogos</h1>
-    <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\game.png" alt="games">
-    <h3>Horizon Forbidden West</h3>
-    <p>De Sony Interactive Ententainment</p>
-    <p>9.7</p>
+         <div>
+            <h1>Jogos</h1>
+            <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\game.png" alt="games" width="300px" height="169px">         
+            <h3>Horizon Forbidden West</h3>
+            <p>De Sony Interactive Ententainment</p>
+            <p>9.7</p>
+          
+         </div>
+    </section>
 
-    <h1>Jogos</h1>
-    <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\game.png" alt="games">
-    <h3>Horizon Forbidden West</h3>
-    <p>De Sony Interactive Ententainment</p>
-    <p>9.7</p>
+    <section id="singup">
+        <h2 >Faça sua inscrição</h2>
+        <form action="obrigado.html">
+            <div>
+                <label for="D-name">Nome:</label>    
+                <input id="D-name" name="name" type="text" placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label for="D-email">E-mail:</label>    
+                <input id="D-email" name="email" type="text" placeholder="Digite seu e-mail">
+            </div>
+            <div>
+                <label for="d-plataform">Qual sua plataforma favorita?</label>
+                    <div id="d-plataform">
+                        <div>
+                            <input type="radio" name="plataforma" id="d-plataform-1">
+                            <label for="d-plataform">PC</label>
+                        </div>    
+                        <div>
+                            <input type="radio" name="plataforma" id="d-plataform-2">
+                            <label for="d-plataform">Xbox</label>
+                        </div>  
+                        <div>
+                            <input type="radio" name="plataforma" id="d-plataform-3">
+                            <label for="d-plataform">Playstation</label>
+                        </div>    
 
-    <h1>Jogos</h1>
-    <img src="C:\Users\adria\OneDrive\Área de Trabalho\Meu Projeto\img\game.png" alt="games">
-    <h3>Horizon Forbidden West</h3>
-    <p>De Sony Interactive Ententainment</p>
-    <p>9.7</p>
+                    </div>
+            </div>
 
-    <h1>Faça sua inscrição</h1>
-       <p>formulário para fazer</p>
+            <div>
+                <label for="new">
+                <div id="new">
+                <input id="d-new" type="checkbox">
+                <label for="d-new">Desejo receber novidades.</label>
+                </div>
+                
+            </div>
 
-    <p>@dsplaygames</p><br><p>/displaygames</p>
-    <p>DS Play Games Ltda. Todos direitos reservados</p>
 
+
+            <input type="submit" value="Enviar"> 
+        </form>
+    </section>    
+       
+    <br>
+    <br>
+
+    
+    <footer>
+        <div>   
+         <p>@dsplaygames<br>/displaygamp</p>     
+         <p>DS Play Games Ltda. Todos direitos reservados</p>
+         <p>Política de privacidade<br>Termos de uso</p>  
+        </div> 
+    </footer>
+</Main>
 </body>
 </html>
